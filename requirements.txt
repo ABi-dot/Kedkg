@@ -1,0 +1,15 @@
+numpy==1.26.3
+openai==0.26.1
+pandas==2.2.3
+pillow==10.2.0
+scikit-learn==1.6.0
+scipy==1.13.1
+sentence-transformers==3.3.1
+spacy==3.8.3
+spacy-entity-linker==1.0.3
+tokenizers==0.21.0
+torch==2.5.1+cu124
+torchaudio==2.5.1+cu124
+torchvision==0.20.1+cu124
+tqdm==4.67.1
+transformers==4.47.1

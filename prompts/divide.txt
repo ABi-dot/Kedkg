@@ -1,0 +1,34 @@
+You need to divide a multi-hop question into several sub-questions.
+Examples)
+
+Question: Who is the head of state of the country where Rainn Wilson holds a citizenship?
+Subquestion: 
+What is the country of citizenship of Rainn Wilson?
+What is the name of the current head of state in [ENT]?
+
+Question: Who is the spouse of the head of state in United States of America?
+Subquestion: 
+Who is the head of state in United States of America?
+Who is the spouse of [ENT]?
+
+Question: What is the capital city of the country of citizenship of Ivanka Trump's spouse?
+Subquestion: 
+Who is Ivanka Trump's spouse?
+What is the country of citizenship of [ENT]?
+What is the capital city of [ENT]?
+
+Question: What is the name of the founder of the headquarters where the creators of Mortal Kombat II are located?
+Subquestion: 
+Who is the developer of Mortal Kombat II?
+Which city is the headquarter of [ENT] located in?
+Who founded [ENT]?
+
+Question: On which continent is the country of citizenship of the founder of the manufacturer of iPhone 5 situated?
+Subquestion:
+Which company is iPhone 5 produced by?
+Who is the founder of [ENT]?
+What is the country of citizenship of [ENT]?
+On which continent is [ENT]?
+
+Question: <<<<QUESTION>>>>
+Subquestion:

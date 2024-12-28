@@ -1,0 +1,28 @@
+For each question, provide a short and accurate entity answer. Do not repeat the question. The format is 'Answer: '
+
+Question: Which country was jazz created in?
+Answer: United States of America
+
+Question: What is the capital of France?
+Answer: Paris
+
+Question: Who wrote the play "Hamlet"?
+Answer: William Shakespeare
+
+Question: What is the largest planet in our solar system?
+Answer: Jupiter
+
+Question: In what year did the Titanic sink?
+Answer: 1912
+
+Question: Which religion is Jason Momoa affiliated with?
+Answer: Christianity
+
+Question: Which city is the headquarter of Paramount Pictures located in?
+Answer: Los Angeles
+
+Question: What is the country of citizenship of Bharathan?
+Answer: India
+
+Now, answer the following question in the same format:
+Question: <<<<QUESTION>>>>
