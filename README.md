@@ -1,4 +1,6 @@
-# 代码运行指南：
+# Knowledge Editing with Dynamic Knowledge Graphs for Multi-Hop Question Answering(KEDKG)([AAAI 2025](https://arxiv.org/abs/2412.13782))：
+
+## 项目运行指南
 
 ### 1. 安装环境
 
@@ -70,3 +72,15 @@ python dynamic_exp.py --edit [N]
 ```
 
 来运行，N是指编辑的批次大小。
+
+## Reference
+Please cite our paper if you use our models in your works:
+
+```
+@inproceedings{kedkg_aaai_25,
+	title={Knowledge Editing with Dynamic Knowledge Graphs for Multi-Hop Question Answering},
+	author = {Yifan Lu and Yigeng Zhou and Jing Li and Yequan Wang and Xuebo Liu and Daojing He and Fangming Liu and Min Zhang},
+	booktitle = {The Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI)},
+	year={2025}
+}
+```
