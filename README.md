@@ -54,15 +54,16 @@ https://huggingface.co/distilbert/distilbert-base-cased
 
 https://huggingface.co/Babelscape/rebel-large
 
-（2）我们提供了训练所需的所有数据集和实体判别模型、关系判别模型的数据集文件和生成代码，但分解模型的训练是使用llama-factory训练的，代码在我的co-author那里，因此您需要使用datasets_divide.json 对问题分解模型进行训练。
 
-（3）在dynamic_exp.py文件中可能需要修改如下参数：
+（3）我们提供了训练所需的所有数据集和实体判别模型、关系判别模型的数据集文件和生成代码，但分解模型的训练是使用llama-factory训练的，代码在我的co-author那里，因此您需要使用datasets_divide.json 对问题分解模型进行训练。实体判别模型、关系判别模型的权重文件可以在[Google Drive]https://drive.google.com/drive/folders/1TxxeuL0LPNi5K3aampXiMcPE33LPAk_S?usp=sharing, https://drive.google.com/drive/folders/1aM3XPccAAF_GzsFHT6kacQrOJIp2eGeq?usp=sharing 找到。
 
-​	（a) openai.api_base = "https://api.openai.com/v1" 这个需要改成你的模型端口，如果使用gpt3.5需要提供API（run_llm_answer(query) 和 run_llm_divide(query)这两个函数）
+（4）在dynamic_exp.py文件中可能需要修改如下参数：
 
-​	（b）Line 424， Line 430 修改使用的数据集和数据总量。
+​	  （a）openai.api_base = "https://api.openai.com/v1" 这个需要改成你的模型端口，如果使用gpt3.5需要提供API（run_llm_answer(query) 和 run_llm_divide(query)这两个函数）
 
-（4）使用
+​	  （b）Line 424， Line 430 修改使用的数据集和数据总量。
+
+（5）使用
 
 ```
 python dynamic_exp.py --edit [N]
