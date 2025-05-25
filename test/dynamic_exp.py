@@ -332,6 +332,7 @@ def construct_graph(batch, qid2name, triples, qid_relations, nlp):
                     qid2name[head_linking] = head
                 
                 
+                
                 if tail_linking:
                     tail_linking = tail_linking.group(0)
                 else:
